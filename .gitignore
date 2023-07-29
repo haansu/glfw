@@ -101,3 +101,11 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+# Visual Studio
+*.vcxproj*
+*.vcxproj
+*.sln
+
+# Build
+Intermediate
+Binaries
