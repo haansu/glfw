@@ -4,8 +4,8 @@ project "GLFW"
 	staticruntime "off"
 	warnings "off"
 
-	targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
-	objdir ("Intermediate/" .. outputdir .. "/%{prj.name}")
+	targetdir ("Binaries/" .. OutputDir .. "/%{prj.name}")
+	objdir ("Intermediate/" .. OutputDir .. "/%{prj.name}")
 
 	files {
 		"include/GLFW/glfw3.h",
